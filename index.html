@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        body {
+            color: #808080;
+            font-family:Monospace;
+            font-size:13px;
+            text-align:center;
+            background-color: #000;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        #info {
+            position: absolute;
+            left: 0px;
+            top: 10px;
+            width: 100%;
+            padding: 5px;
+            z-index: 1;
+            color: #ddd;
+            text-shadow: 0 0 1px rgba(0,0,0,1);
+            text-align: left;
+            font-size: 20px;
+        }
+
+        a {
+            color: #0080ff;
+        }
+
+        b { color: lightgreen }
+
+        .renderer_label {
+            position: absolute;
+            bottom: 1em;
+            width: 100%;
+            color: white;
+            z-index: 10;
+            display: block;
+            text-align: center;
+        }
+        .renderer_label.renderer_label_normal {
+        }
+        .renderer_label.renderer_label_logzbuf {
+        }
+        #container {
+            white-space: nowrap;
+        }
+        #container_normal {
+            width: 50%;
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+        }
+        #container_logzbuf {
+            width: 50%;
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+        }
+        #renderer_border {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            z-index: 10;
+            opacity: .8;
+            background: #ccc;
+            border: 1px inset #ccc;
+            cursor: col-resize;
+        }
+        box {
+            --divwidth: 500px;
+            --divhight: 500px;
+        }
+        #main{position: absolute;top: 10%;left: 10%;filter:alpha(Opacity=100);-moz-opacity:0.8;opacity: 1}
+        #title{width: 300px;height: 19px;border-top: #85ABE4 1px solid;border-right: #222 1px solid;border-left: #85ABE4 1px solid;border-bottom: none;background: #5B8BD9;color:#FFFFFF;font-size:14px}
+        #content{border: #85ABE4 1px solid;border-top: none;width: 300px;height:  215px;float:left;}
+        #content{background: url(res/sh.jpg) no-repeat;}
+        #vtitle{width: 405px;height: 19px;border-top: #85ABE4 1px solid;border-right: #222 1px solid;border-left: #85ABE4 1px solid;border-bottom: none;background: #5B8BD9;color:#FFFFFF;font-size:14px}
+        #vcontent{border: #85ABE4 1px solid;border-top: none;width: 400px;height:  230px;float:left;}
+        #vcontent{background: url(res/sh.jpg) no-repeat;}
+        #off{float: right;cursor: pointer;}
+        .none{display: none;}
+        .show{display: block;}
+        #open{background: #fff;border: #555 1px solid;height: 13px;width: 50px;position: absolute;left: 50px;top: 400px;cursor: pointer;}
+        #open marquee{font-size: 12px;color: #555;}
+        #img{background: url(res/s.jpg) no-repeat;float: right;width: 49px;height: 19px;}
+        #img: hover{background: url(res/sh.jpg) no-repeat;}
+        #ten{float: left;width: 200px;}
+        #popupdiv
+        {
+            width:300px;
+            height:150px;
+            position:absolute;
+            z-index:1000;
+            border:1px ;
+            background: #0BB9DF;
+            color:#000;
+            padding:5px;
+            filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8
+        }
+        .divitem{width:80px;text-align:right;float:left;color:#00FF7F;}
+    </style>
+    <title>智能机房监控</title>
+    <link href="./css/msj3D.css" rel="stylesheet" />
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/three.min.js"></script>
+    <script src="./js/stats.min.js"></script>
+    <script src="./js/OrbitControls.js"></script>
+    <script src="./js/ThreeBSP.js"></script>
+    <script src="./js/curves/NURBSCurve.js"></script>
+    <script src="./js/curves/NURBSSurface.js"></script>
+    <script src="./js/curves/NURBSUtils.js"></script>
+    <script src="./js/Tween.min.js"></script>
+    <script src="./js/CSS3DRenderer.js"></script>
+    <!-- Digital3D类 -->
+    <script src="msj3D.js"></script>
+    <!-- 模型数据 -->
+    <script src="data.js"></script>
+    <script langue="javascript">
+    </script>
+
+</head>
+<body onload="threeStart()" >
+    <div id="canvas-frame" class="canvas_frame" ></div>
+<div id="info">
+    <a target="_blank" style="text-decoration-line: none;font-size:30px;color:white;">黄山电力智慧机房运维平台</a>
+</div>
+
+<div id="main" class="none">
+    <div id="title" onclick="closeDiv('main')">设备实时数据
+        <div id="ten" onclick="closeDiv('main')"></div>
+        <div id="img" title="关闭" onclick="closeDiv('main')" ></div>
+    </div>
+    <div id="content" style="">
+        <div style="float:center"><div class="divitem">设备名称：</div><input type="text" id="item1" value="allen" /></div>
+        <div style="float:center"><div class="divitem">类型：</div><input type="text" id="item1" name="fname" value="allen" /></div>
+        <div style="float:center"><div class="divitem">IP：</div><input type="text" id="item1" name="fname" value="allen" /></div>
+        <div style="float:center"><div class="divitem">设备详情：</div><input type="text" id="item1" name="fname" value="allen" /></div>
+    </div>
+    <div class="qrcode" style="">
+        <img src="res/qrcode.png" style="width: 100px;"/>
+    </div>
+</div
+
+</body>
+</html>

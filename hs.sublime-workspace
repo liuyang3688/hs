@@ -1,0 +1,428 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"b",
+				"bOpen"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"int",
+				"intersects"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"dom",
+				"domElement"
+			],
+			[
+				"sta",
+				"stats"
+			],
+			[
+				"THR",
+				"THREEX"
+			],
+			[
+				"SCRE",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"ap",
+				"app-2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 335.0,
+		"last_filter": "view",
+		"selected_items":
+		[
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"in",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"i",
+				"Package Control: Install Package→安装插件"
+			]
+		],
+		"width": 594.0
+	},
+	"console":
+	{
+		"height": 223.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/WebServer/tomcat7-bin/webapps/hs/data.js",
+		"/E/WebGL/three.js/three.js-dev/src/geometries/BoxGeometry.js",
+		"/D/大数据处理.txt",
+		"/E/WebGL/three.js/three.js-dev/src/cameras/OrthographicCamera.js",
+		"/E/WebGL/three.js/three.js-dev/src/cameras/CubeCamera.js",
+		"/E/WebGL/three.js/three.js-dev/src/cameras/PerspectiveCamera.js",
+		"/E/WebGL/three.js/three.js-dev/src/core/Object3D.js",
+		"/E/WebGL/three.js/three.js-dev/src/core/DirectGeometry.js",
+		"/E/WebGL/three.js/three.js-dev/src/cameras/ArrayCamera.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Quaternion.js",
+		"/E/WebGL/three.js/three.js-dev/src/cameras/Camera.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Vector3.js",
+		"/E/WebGL/three.js/three.js-dev/src/core/InterleavedBuffer.js",
+		"/E/WebGL/three.js/three.js-dev/src/core/Raycaster.js",
+		"/E/WebGL/three.js/three.js-dev/src/core/Geometry.js",
+		"/E/WebGL/three.js/three.js-dev/src/core/BufferGeometry.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Box3.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Matrix4.js",
+		"/E/WebGL/three.js/three.js-dev/src/core/BufferAttribute.js",
+		"/E/WebGL/three.js/three.js-dev/build/three.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Euler.js",
+		"/E/WebGL/three.js/three.js-dev/src/core/Layers.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Triangle.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Vector4.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Ray.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Frustum.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Plane.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Box2.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Sphere.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Color.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Line3.js",
+		"/E/WebGL/three.js/three.js-dev/src/math/Math.js",
+		"/E/WebGL/three.js/three.js-dev/src/polyfills.js",
+		"/C/WebServer/tomcat7-bin/webapps/hs/msj3D.js",
+		"/C/WebServer/tomcat7-bin/webapps/hs/index.html",
+		"/F/WebGL/three.js-dev/src/core/BufferAttribute.js",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/js/babylon.max - 副本.js",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/index - 副本.html",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/js/note.js",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/js/babylon.max.js",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/Desktop/新建文本文档 (2).txt",
+		"/C/Users/Administrator/Desktop/新建文本文档.txt",
+		"/C/Users/Administrator/Desktop/工作计划.txt",
+		"/C/Users/Administrator/Desktop/muxian.txt",
+		"/D/iesbase-beijing/新能源网页.txt",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/iesbase/doc/常用命令/sumlime快捷键",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/iesbase/doc/常用命令/gdb调试.txt",
+		"/D/iesbase/doc/常用命令/svn.txt",
+		"/F/Software/linux/db/11g_linux_x86/Ora112030_lib32.tar.zip用法.txt",
+		"/C/Users/Administrator/Desktop/恢复系统主题(win7X64)/使用说明.txt",
+		"/C/Users/Administrator/Desktop/data.js",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/index.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/E/Java/IntellJ/zspring/web/statics/model/jifang3.dae",
+		"/F/技术文档/svn.txt",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/index - 副本 (2).html",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/model/ii.babylon",
+		"/C/WebServer/tomcat7-bin/webapps-old/zspring/WEB-INF/views/babylon.jsp",
+		"/F/技术文档/at&t汇编语法.txt",
+		"/F/技术文档/makefile.txt",
+		"/F/技术文档/sqlite-shell.txt",
+		"/D/iesbase/src/dbproc/dbedit/新建文本文档.txt",
+		"/F/技术文档/gdb调试.txt",
+		"/C/Users/Administrator/Desktop/许继bachmann风机状态.txt",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/model/cab.babylon",
+		"/C/Users/Administrator/Desktop/cab.babylon",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/新建文本文档.txt",
+		"/C/Users/Administrator/Desktop/test.babylon",
+		"/C/Users/Administrator/Desktop/html-en-dev-r4165/index.html",
+		"/C/WebServer/tomcat7-bin/webapps/zspring/index.jsp",
+		"/C/WebServer/tomcat7-bin/webapps/zspring/WEB-INF/views/webgl.jsp",
+		"/E/Java/IntellJ/zspring/web/statics/model/jifang.dae",
+		"/E/Java/IntellJ/zspring/web/statics/model/jifang-su8.gltf",
+		"/C/WebServer/tomcat7-bin/webapps/zspring/statics/model/hello.babylon",
+		"/E/Java/IntellJ/zspring/web/statics/model/jifang3.gltf",
+		"/E/Java/IntellJ/zspring/web/statics/model-old/jifang-su8.dae",
+		"/C/WebServer/tomcat7-bin/webapps/zspring/WEB-INF/web.xml",
+		"/C/Users/Administrator/Desktop/babylon.custom.js",
+		"/C/Users/Administrator/Desktop/babylon.js",
+		"/C/WebServer/tomcat7-bin/webapps/zspring/statics/model/jifang.dae",
+		"/C/Users/Administrator/Desktop/jifang-su8.gltf",
+		"/C/Users/Administrator/Desktop/index.html",
+		"/E/JiFang/Babylon/index.html",
+		"/C/WebServer/tomcat7-bin/webapps/room/room.html",
+		"/C/Users/Administrator/Desktop/test.gltf",
+		"/C/Users/Administrator/Desktop/Mouse-Click.html",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/model/3DFile.gltf",
+		"/C/Users/Administrator/Desktop/3DFile.gltf",
+		"/C/Users/Administrator/Desktop/collada2gltf/jifang-su8.gltf",
+		"/F/WebGL/index.html",
+		"/F/WebGL/three.js-dev/docs/index.html",
+		"/C/WebServer/tomcat7-bin/webapps/webgl/model/jifang-su8.dae",
+		"/C/WebServer/tomcat7/webapps/webgl/index.html",
+		"/F/WebGL/index-2.html",
+		"/F/QtProj/pgclient/global.cpp",
+		"/F/QtProj/pgclient/create.bat",
+		"/F/QtProj/pgclient/config.xml",
+		"/F/QtProj/pgclient/global.h",
+		"/F/QtProj/pgclient/main.cpp",
+		"/F/QtProj/pgclient/pgclient.cpp",
+		"/F/QtProj/pgclient/pgclient.h",
+		"/F/QtProj/pgclient/pgclient.pro",
+		"/F/QtProj/pgclient/pgclientbase.ui",
+		"/F/QtProj/pgclient/pgthread.cpp",
+		"/F/QtProj/pgclient/pgthread.h",
+		"/F/QtProj/pgclient/state.cpp",
+		"/F/QtProj/pgclient/state.h",
+		"/F/QtProj/pgclient/pgclient.vcproj",
+		"/F/QtProj/pgclient/statebase.ui",
+		"/F/QtProj/pgclient/station.cpp",
+		"/D/iesbase/src/feproc/ccmedit/caddrecorddialog.cpp",
+		"/F/QtProj/pgclient/station.h",
+		"/F/QtProj/pgclient/stationbase.ui",
+		"/D/iesbase/src/feproc/ccmedit/CLoginDialog.cpp",
+		"/F/front/my-app/src/App.js",
+		"/D/iesbase/src/feproc/ccmui/CLoginDialog.cpp",
+		"/F/front/my-app/src/index.js",
+		"/C/Users/Administrator/Desktop/2016y05m27d17h29m02s078ms+act",
+		"/F/front/my-app/src/App.css",
+		"/F/front/my-app/src/registerServiceWorker.js",
+		"/C/Users/Administrator/Desktop/vue.html",
+		"/C/Users/Administrator/Desktop/test.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getLabelCanvas",
+			"showAlert",
+			"showSmokeAlert",
+			"setFromMatrixPosition",
+			"expandByScalar",
+			"expandByPoint",
+			"invertToRef",
+			"TransformNode",
+			"_ALPHA_PREMULTIPLIED",
+			"Engine",
+			"blob",
+			"Database",
+			"enableOfflineSupport",
+			"defaultHeight",
+			"_POINTERDOWN",
+			"`",
+			"index",
+			"PointerEventTypes",
+			"applyStates",
+			"_depthCullingState",
+			"applyStates",
+			"RequestFullscreen",
+			"ExitFullscreen",
+			"_workingCanvas",
+			"texturesSupported",
+			"EngineCapabilities",
+			"find_under",
+			"height",
+			"Engine",
+			"EngineCapabilities",
+			"Uint8Array",
+			"Uint8Array\nUint8Array\nUint8Array\nUint8Array\nUint8Array\nUint8Array\nUint8Array\nUint8Array\nUint8Array\nUint8Array",
+			"Uint8Array",
+			"maxVertexAttribs",
+			"MAX_VERTEX_ATTRIBS",
+			"maxVertexAttribs",
+			"_currentBufferPointers",
+			"_caps",
+			"_pointerLockRequested",
+			"Tools.Warn",
+			"Warn",
+			"onCanvasFocusObservable",
+			"_webGLVersion",
+			"navigator",
+			"Instances",
+			"length",
+			"Dot",
+			"toRotationMatrix",
+			"FromArray",
+			"Rotation",
+			"rotation",
+			"translation",
+			"FromValues",
+			"TransformNormalToRef",
+			"2",
+			"Camera",
+			"decodeUrl",
+			"dummy",
+			"\"",
+			"RGB_ZERO"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\WebServer\\tomcat7-bin\\webapps\\hs"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
